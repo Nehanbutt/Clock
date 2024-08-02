@@ -1,0 +1,17 @@
+body {
+    background: linear-gradient(15deg,black,rgb(81, 112, 112));
+}
+
+.clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(184, 235, 118, 0.85);
+    font-size: 45px;
+    font-family: Orbitron;
+    letter-spacing: 5px;
+    border: 2px solid red;
+    border-radius: 15px;
+    padding: 10px;
+}
